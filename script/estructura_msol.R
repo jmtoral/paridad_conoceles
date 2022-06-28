@@ -153,7 +153,7 @@ redes |>
        caption = "Fuente: Conóceles - INE")+
   scale_fill_manual(name="", values = c("#1FC3AA", "#8624F5"))
 
-ggsave("1_redes_genero.png", width = 10, height = 8, dpi = 100)
+ggsave("graficas/1_redes_genero.png", width = 10, height = 8, dpi = 100)
 
 redes |> 
   mutate(total = 1) |> 
@@ -181,7 +181,7 @@ redes |>
        caption = "Fuente: Conóceles - INE")+
   scale_fill_manual(name="", values = c("#1FC3AA", "#8624F5"))
 
-ggsave("2_redes_genero.png", width = 10, height = 8, dpi = 100)
+ggsave("graficas/2_redes_genero.png", width = 10, height = 8, dpi = 100)
 
 
 
@@ -221,7 +221,7 @@ edad |>
        x="", y="\nEdad",
        caption = "Fuente: Conóceles - INE\nLa línea gris muestra la media por edad de toda a muestra.")
 
-ggsave("3_edades_genero.png", width = 8, height = 6, dpi = 100)
+ggsave("graficas/3_edades_genero.png", width = 8, height = 6, dpi = 100)
 
 
 # Propuesta ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -276,7 +276,7 @@ propuestas_vacias_sexo_cargo |>
   coord_flip()+
   geom_hline(yintercept = 0.5, linetype=2, size=1.2)
 
-ggsave("4_respuesta_genero.png", width = 10, height = 6, dpi = 100)
+ggsave("graficas/4_respuesta_genero.png", width = 10, height = 6, dpi = 100)
 
 
 
@@ -368,7 +368,7 @@ propuestas_vacias_partido |>
   facet_wrap(~sexo, scales = "free") +
   scale_x_reordered()
 
-ggsave("5_propuestas_sexo.png", width = 14, height = 10, dpi = 100)
+ggsave("graficas/5_propuestas_sexo.png", width = 14, height = 10, dpi = 100)
 
 
 
