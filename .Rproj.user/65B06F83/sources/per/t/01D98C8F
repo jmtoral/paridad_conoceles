@@ -1,0 +1,27 @@
+{
+    "id": "01D98C8F",
+    "path": "~/conoceles_local/estructura_msol.R",
+    "project_path": "estructura_msol.R",
+    "type": "r_source",
+    "hash": "3263302096",
+    "contents": "",
+    "dirty": false,
+    "created": 1654800471655.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "169,34",
+        "scrollLine": "166"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1655389743,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1655389752880,
+    "read_only": false,
+    "read_only_alternatives": []
+}
